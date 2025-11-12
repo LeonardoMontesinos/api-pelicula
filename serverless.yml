@@ -1,4 +1,4 @@
-org: geraldocolchado
+org: leonardomontesinos
 service: api-pelicula
 
 provider:
@@ -8,7 +8,7 @@ provider:
   memorySize: 1024
   timeout: 30
   iam:
-    role: arn:aws:iam::606646193182:role/LabRole	
+    role: arn:aws:iam::088462649389:role/LabRole	
   environment:
     TABLE_NAME: ${sls:stage}-t_peliculas
 
